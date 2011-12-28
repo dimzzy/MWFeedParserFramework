@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F2C62B614ABC93A006918F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2C62B514ABC93A006918F1 /* Foundation.framework */; };
+		1F2C62BC14ABC93A006918F1 /* MWFeedParserFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2C62BB14ABC93A006918F1 /* MWFeedParserFramework.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F2C62B214ABC93A006918F1 /* libMWFeedParserFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMWFeedParserFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F2C62B514ABC93A006918F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F2C62B914ABC93A006918F1 /* MWFeedParserFramework-Prefix.pch */ = {isa = PBXFileReference; path = "MWFeedParserFramework-Prefix.pch"; sourceTree = "<group>"; };
+		1F2C62BA14ABC93A006918F1 /* MWFeedParserFramework.h */ = {isa = PBXFileReference; path = MWFeedParserFramework.h; sourceTree = "<group>"; };
+		1F2C62BB14ABC93A006918F1 /* MWFeedParserFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWFeedParserFramework.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F2C62AF14ABC93A006918F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2C62B614ABC93A006918F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F2C62A714ABC93A006918F1 = {
+			isa = PBXGroup;
+			children = (
+				1F2C62B714ABC93A006918F1 /* MWFeedParserFramework */,
+				1F2C62B414ABC93A006918F1 /* Frameworks */,
+				1F2C62B314ABC93A006918F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F2C62B314ABC93A006918F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F2C62B214ABC93A006918F1 /* libMWFeedParserFramework.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F2C62B414ABC93A006918F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F2C62B514ABC93A006918F1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F2C62B714ABC93A006918F1 /* MWFeedParserFramework */ = {
+			isa = PBXGroup;
+			children = (
+				1F2C62BA14ABC93A006918F1 /* MWFeedParserFramework.h */,
+				1F2C62BB14ABC93A006918F1 /* MWFeedParserFramework.m */,
+				1F2C62B814ABC93A006918F1 /* Supporting Files */,
+			);
+			path = MWFeedParserFramework;
+			sourceTree = "<group>";
+		};
+		1F2C62B814ABC93A006918F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F2C62B914ABC93A006918F1 /* MWFeedParserFramework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F2C62B014ABC93A006918F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F2C62B114ABC93A006918F1 /* MWFeedParserFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F2C62BF14ABC93A006918F1 /* Build configuration list for PBXNativeTarget "MWFeedParserFramework" */;
+			buildPhases = (
+				1F2C62AE14ABC93A006918F1 /* Sources */,
+				1F2C62AF14ABC93A006918F1 /* Frameworks */,
+				1F2C62B014ABC93A006918F1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MWFeedParserFramework;
+			productName = MWFeedParserFramework;
+			productReference = 1F2C62B214ABC93A006918F1 /* libMWFeedParserFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F2C62A914ABC93A006918F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1F2C62AC14ABC93A006918F1 /* Build configuration list for PBXProject "MWFeedParserFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F2C62A714ABC93A006918F1;
+			productRefGroup = 1F2C62B314ABC93A006918F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F2C62B114ABC93A006918F1 /* MWFeedParserFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F2C62AE14ABC93A006918F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F2C62BC14ABC93A006918F1 /* MWFeedParserFramework.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1F2C62BD14ABC93A006918F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F2C62BE14ABC93A006918F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F2C62C014ABC93A006918F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MWFeedParserFramework.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MWFeedParserFramework/MWFeedParserFramework-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1F2C62C114ABC93A006918F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MWFeedParserFramework.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MWFeedParserFramework/MWFeedParserFramework-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F2C62AC14ABC93A006918F1 /* Build configuration list for PBXProject "MWFeedParserFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F2C62BD14ABC93A006918F1 /* Debug */,
+				1F2C62BE14ABC93A006918F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F2C62BF14ABC93A006918F1 /* Build configuration list for PBXNativeTarget "MWFeedParserFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F2C62C014ABC93A006918F1 /* Debug */,
+				1F2C62C114ABC93A006918F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F2C62A914ABC93A006918F1 /* Project object */;
+}
